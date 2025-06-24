@@ -1,0 +1,71 @@
+.main {
+  /* height: 100vh; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background: black;
+  padding: 20px;
+  border-radius: 15px;
+}
+input {
+  border-radius: 15px;
+  padding: 10px;
+  font-size: large;
+}
+/* .cardData{
+} */
+p {
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+  height: 30%;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+.textHead {
+  background-color: rgba(196, 206, 206, 0.615);
+  width: 20rem;
+  padding: 10px;
+  border-radius: 10px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal {
+  border: none;
+  background-color: rgba(136, 34, 34, 0.514);
+  border-radius: 10px;
+  width: 100%;
+  height: 100vh;
+}
+
+.mainHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cardSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  height: 100vh;
+}
